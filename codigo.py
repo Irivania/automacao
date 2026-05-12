@@ -59,7 +59,7 @@ for linha in tabela.index:
     pyautogui.press('tab') # ir para o campo observação
 
     #observação
-    obs = str(tabela.loc[linha, 'obs'])     
+    obs5.0 = str(tabela.loc[linha, 'obs'])     
     if obs != 'nan': 
         pyautogui.write("Mouse sem fio") # digitar a observação
     pyautogui.press('enter') # clicar no botão de cadastrar
